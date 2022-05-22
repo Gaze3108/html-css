@@ -1,0 +1,63 @@
+/* kalau mau menghiasi harus menggunakan selector
+     */
+     /* cara menggunkan css
+        1.pilih tag/seleksi tag,id,class
+        2.pilih style
+        3,beri value
+        4.tampilan web sudah dihiasi/sudah tidak default */
+h1{
+    color: black; 
+    /* keyword, heksadesimal, rgba, hsla */
+}
+.judul{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: lightsteelblue;
+    align-self: auto;
+    ;
+}
+.konten{
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgb(86, 172, 36);
+    align-self: auto;
+    ;
+}
+/* cara menulis css ada 3 inline css, internal css, eksternal css */
+/* inline css langsung menulis kode css di tag html 
+<h1 style="property: value"></h1>
+*/
+/* internal css menuliskan kode css di tag head 
+    lalu buka tag style kemudian pilih tag yang akan dihias/selektor tag kemudian beri property css dan value
+    <head>
+    <style>
+    <tag id class>
+        properti: value;
+    </tag>
+    </style>
+    </head> */
+    /* memanggil selektor id menggunakan pagar
+    <h1 id="doni"></h1>
+    #id {
+        properti: value:    
+    }
+    */
+   
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+#isi{
+    font-size: 45px;
+    color: darkkhaki;
+    font-family:'Roboto Mono', monospace ;
+    background: blue;
+    display: inline;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+/* margin adalah jarak antara konten keluar
+    padding jarak antara konten kedalam */
+    /* text decoration menghilangkan garis bawah */
+    /*  */
